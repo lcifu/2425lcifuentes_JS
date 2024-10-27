@@ -1,0 +1,194 @@
+/* ---- Estilos para todas las páginas ---- */
+
+/* Barra del menú con acceso a las diferentes páginas */
+header {
+    background-color: #333; 
+    padding: 10px 0; 
+    position: fixed; /* Dejarlo fijo en la parte superior */
+    width: 100%; 
+    top: 0;
+}
+
+/* Estilo del cuerpo de las webs */
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0; 
+    color: #333; 
+    padding: 20px;
+}
+
+/* Estilo del menú de navegación */
+nav ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Color del fondo al pasar el ratón */
+}
+
+/* Centrar la imagen de portada y generamos una clase que se llama portada*/
+.portada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Centrar verticalmente */
+}
+
+.portada img {
+    width: 100% 100%; /* Ancho máximo */
+    height: auto; /* Mantener proporciones */
+}
+
+
+/* Color de los encabezados */
+h1, h2, h3 {
+    color: #444; 
+}
+
+/* Párrafos */
+p {
+    margin-bottom: 20px; 
+}
+
+/* Ajustar el contenido por debajo del menú */
+section {
+    padding-top: 80px; /* Espacio debajo del menú */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #444; 
+    color: white;
+    text-align: center; /* Centrar texto */
+    padding: 10px; 
+}
+
+/* Estilos para los enlaces del pie delas páginas */
+footer a {
+    color: #f0f0f0; 
+    text-decoration: underline; /* Subrayado */
+}
+
+footer a:hover {
+    color: #ccc; /* Color al pasar el ratón */
+}
+
+
+/* ---- Estilos para la página de la galería ---- */
+
+/* Centrar el título de la galería */
+section h1 {
+    text-align: center; 
+    margin-bottom: 30px; /* Espacio debajo del título */
+}
+
+/* Centrar la tabla de imágenes */
+table {
+    margin: 0 auto;
+}
+
+/* Ajustar el tamaño de las imágenes en la tabla */
+table img {
+    width: 300px; 
+    height: 200px; 
+}
+
+/* Poner las celdas centradas */
+table td {
+    text-align: center;
+    padding: 15px; /* Añadir espacio entre las imágenes */
+}
+
+
+/* ---- Estilos para la página de eventos ---- */
+
+/* Centrar el título de la sección de eventos */
+section h1 {
+    text-align: center; 
+    margin-bottom: 30px; 
+}
+
+/* Estilo de los artículos de los eventos */
+article {
+    margin-bottom: 40px; /* Espacio entre los eventos */
+    text-align: center;  /* Centrar el contenido de cada evento */
+}
+
+/* Imágenes dentro de los artículos */
+article img {
+    display: block;
+    margin: 0 auto 15px auto; /* Centrar imagen y añadir espacio inferior */
+    width: 300px; 
+    height: auto; 
+}
+
+/* Estilo de los títulos de los eventos */
+article h2 {
+    color: #444; 
+    margin-bottom: 10px; /* Espacio debajo del título del evento */
+}
+
+/* Estilo del texto descriptivo de los eventos */
+article p {
+    font-size: 17px; /* Tamaño de texto ligeramente mayor */
+    color: #555;
+    margin-bottom: 20px; 
+}
+
+/* Texto centrado al final de la sección de eventos */
+section p {
+    text-align: center; 
+    font-size: 20px; /* Tamaño del texto de contacto */
+}
+
+
+/* ---- Estilos para la página de contacto ---- */
+
+/* Estilos para el formulario de contacto */
+form {
+    max-width: 600px; /* Este es el ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilos para las etiquetas del formulario */
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
