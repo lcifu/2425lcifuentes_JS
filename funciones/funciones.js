@@ -69,7 +69,3 @@ function validarFormulario() {
     alert("Formulario enviado correctamente."); // Mensaje de éxito
     return true; // Permite el envío del formulario
 }
-
-// Asigna la función de validación al formulario
-	document.querySelector("form").onsubmit = validarFormulario;
-
