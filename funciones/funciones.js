@@ -22,8 +22,8 @@ function activarGaleria() {
 // Ejecuta la función cuando el contenido de la página esté cargado
 document.addEventListener("DOMContentLoaded", activarGaleria);
 
-// Código nosotros.html
-function toggleDescripcion() { // Función para mostrar/ocultar la descripción
+// Código nosotros.html - Función toggleDescripcion - Alterna entre mostrar y ocultar la sección de descripción
+function toggleDescripcion() { 
     const descripcion = document.getElementById("descripcion");
     descripcion.style.display = descripcion.style.display === "none" ? "block" : "none";
 }
@@ -33,11 +33,6 @@ function toggleDescripcion() { // Función para mostrar/ocultar la descripción
     document.getElementById("toggleBtn").onclick = toggleDescripcion;
 };
 
-// Función toggleDescripcion - Alterna entre mostrar y ocultar la sección de descripción
-function toggleDescripcion() {
-    const descripcion = document.getElementById("descripcion");
-    descripcion.style.display = descripcion.style.display === "none" ? "block" : "none";
-}
 
 // Código eventos.html - Mensaje de confirmación al hacer clic en inscribirse
 function confirmarInscripcion() {
