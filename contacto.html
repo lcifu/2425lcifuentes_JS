@@ -22,8 +22,9 @@
     <!-- Esta es la sección del formulario de contacto -->
 	<section>
 		<h1>Formulario de Contacto</h1>
-		<form action="mailto:lcifuentes@birt.eus" method="post" enctype="text/plain">
-			<div>
+		<!--  onsubmit="return validarFormulario()" para que la validación se haga antes de enviar el correo -->
+        <form id="contactoForm" action="mailto:lcifuentes@birt.eus" method="post" enctype="text/plain" onsubmit="return validarFormulario()"> 
+            <div>
 				<label for="nombre">Nombre (requerido):</label>
 				<input type="text" id="nombre" name="nombre" required>
 			</div>
